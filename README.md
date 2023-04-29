@@ -1,3 +1,3 @@
-# astro-docs-blog-tutorial
+# Tutorial for making a blog site using Astro
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/github-qoykb7)
+This website was an attempt at following the tutorial from the [Astro documentation website](https://docs.astro.build/en/tutorial/).
