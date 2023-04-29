@@ -1,0 +1,48 @@
+---
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro Tutorial</title>
+	</head>
+	<body>
+		<header>
+			<h1>Astro Tutorial</h1>
+			<nav>
+				<li><a href="/">Home</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/blog">Blog</a></li>
+			</nav>
+		</header>
+		<main>
+			<article>
+				<p>This is a website that was created by following the Astro tutorial about making a <a href="https://docs.astro.build/en/tutorial/">blog site</a></p>
+			</article>
+		</main>
+	</body>
+</html>
+
+<style>
+	::root {
+		margin: 0;
+		font-size: 16px;
+	}
+
+	header nav {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	header nav > li {
+		list-style-type: none;
+		display: inline-block;
+	}
+
+	header nav > li a:link {
+		text-decoration: none;
+	}
+</style>
